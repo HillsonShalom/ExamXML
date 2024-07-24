@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<year>
+		<item>תשפ"ד</item>
+		<value>בשנת חמשת אלפים ושבע מאות ושמנים וארבע לבריאת העולם</value>
+		<item>תשפ"ה</item>
+		<value>בשנת חמשת אלפים ושבע מאות ושמנים וחמש לבריאת העולם</value>
+		<item>תשפ"ו</item>
+		<value>בשנת חמשת אלפים ושבע מאות ושמנים ושש לבריאת העולם</value>
+		<item>תשפ"ז</item>
+		<value>בשנת חמשת אלפים ושבע מאות ושמנים ושבע לבריאת העולם</value>
+		<item>תשפ"ח</item>
+		<value>בשנת חמשת אלפים ושבע מאות ושמנים ושמנה לבריאת העולם</value>
+		<item>תשפ"ט</item>
+		<value>בשנת חמשת אלפים ושבע מאות ושמנים ותשע לבריאת העולם</value>
+		<item>תש"צ</item>
+		<value>בשנת חמשת אלפים ושבע מאות ותשעים לבריאת העולם</value>
+		<item>תשצ"א</item>
+		<value>בשנת חמשת אלפים ושבע מאות ותשעים ואחת לבריאת העולם</value>
+		<item>תשצ"ב</item>
+		<value>בשנת חמשת אלפים ושבע מאות ותשעים ושתים לבריאת העולם</value>
+		<item>תשצ"ג</item>
+		<value>בשנת חמשת אלפים ושבע מאות ותשעים ושלש לבריאת העולם</value>
+	</year>
+	<month>
+		<item>תשרי</item>
+		<item>מרחשון</item>
+		<item>כסלו</item>
+		<item>טבת</item>
+		<item>שבט</item>
+		<item>אדר</item>
+		<item>אדר הראשון</item>
+		<item>אדר השני</item>
+		<item>ניסן</item>
+		<item>אייר</item>
+		<item>סיון</item>
+		<item>תמוז</item>
+		<item>אב</item>
+		<item>אלול</item>
+	</month>
+	<dayM>
+		<day>1</day>
+		<value>יום אחד</value>
+		<day>2</day>
+		<value>שני ימים</value>
+		<day>3</day>
+		<value>שלשה ימים</value>
+		<day>4</day>
+		<value>ארבעה ימים</value>
+		<day>5</day>
+		<value>חמישה ימים</value>
+		<day>6</day>
+		<value>שישה ימים</value>
+		<day>7</day>
+		<value>שבעה ימים</value>
+		<day>8</day>
+		<value>שמנה ימים</value>
+		<day>9</day>
+		<value>תשעה ימים</value>
+		<day>10</day>
+		<value>עשרה ימים</value>
+		<day>11</day>
+		<value>אחד עשר יום</value>
+		<day>12</day>
+		<value>שנים עשר יום</value>
+		<day>13</day>
+		<value>שלשה עשר יום</value>
+		<day>14</day>
+		<value>ארבעה עשר יום</value>
+		<day>15</day>
+		<value>חמשה עשר יום</value>
+		<day>16</day>
+		<value>ששה עשר יום</value>
+		<day>17</day>
+		<value>שבעה עשר יום</value>
+		<day>18</day>
+		<value>שמנה עשר יום</value>
+		<day>19</day>
+		<value>תשעה עשר יום</value>
+		<day>20</day>
+		<value>עשרים יום</value>
+		<day>21</day>
+		<value>אחד ועשרים יום</value>
+		<day>22</day>
+		<value>שנים ועשרים יום</value>
+		<day>23</day>
+		<value>שלשה ועשרים יום</value>
+		<day>24</day>
+		<value>ארבעה ועשרים יום</value>
+		<day>25</day>
+		<value>חמשה ועשרים יום</value>
+		<day>26</day>
+		<value>ששה ועשרים יום</value>
+		<day>27</day>
+		<value>שבעה ועשרים יום</value>
+		<day>28</day>
+		<value>שמנה ועשרים יום</value>
+		<day>29</day>
+		<value>תשעה ועשרים יום</value>
+		<day>30</day>
+		<value>שלשים יום</value>
+	</dayM>
+	<dayW>
+		<day>ראשון</day>
+		<value>באחד בשבת</value>
+		<day>שני</day>
+		<value>בשני בשבת</value>
+		<day>שלישי</day>
+		<value>בשלישי בשבת</value>
+		<day>רביעי</day>
+		<value>ברביעי בשבת</value>
+		<value>באחד בשבת</value>
+		<day>חמישי</day>
+		<value>בחמישי בשבת</value>
+		<day>שישי</day>
+		<value>בששי בשבת</value>
+	</dayW>
+</root>
