@@ -44,6 +44,7 @@ namespace ExamXML
             for (int i = 0; i < b.Count; i++)
             {
                 bb.Add(b[i].Value);
+                months.Add(b[i].Value);
             }
             month.DataSource = bb;
 
@@ -72,16 +73,22 @@ namespace ExamXML
 
         private void sendButton_Click(object sender, EventArgs e)
         {
+            string d = dayM.SelectedItem.ToString();
             selectedYear = years[year.SelectedItem.ToString()];
             selectedMonth = month.SelectedItem.ToString();
-            selectedDayM = daysM[dayM.SelectedItem.ToString()];
+            selectedDayM = daysM[d];
             selectedDayW = daysW[dayW.SelectedItem.ToString()];
             if (string.IsNullOrEmpty(selectedYear) || string.IsNullOrEmpty(selectedMonth) || string.IsNullOrEmpty(selectedDayM) || string.IsNullOrEmpty(selectedDayW))
             {
                 MessageBox.Show("בחר ערך מכל השדות!");
                 return;
             }
-            string result = $"{selectedDayW} {selectedDayM} לירח {selectedMonth} {selectedYear}";
+            //string result = $"{selectedDayW} {selectedDayM} לירח {selectedMonth} {selectedYear}";
+            string result = d switch
+            {
+                "30" when selectedMonth != "אלול" => $"{selectedDayW} {selectedDayM} לירח {selectedMonth} שהוא ראש חודש {months[month.SelectedIndex + 1]} {selectedYear}",
+                _ => $"{selectedDayW} {selectedDayM} לירח {selectedMonth} {selectedYear}"
+            };
             label1.Text = result;
 
             XDocument doc = XDocument.Load("C:\\xmlFiles\\Rabanut.xml");
